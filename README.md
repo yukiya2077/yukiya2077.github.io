@@ -40,7 +40,9 @@ Check the [demo](https://chiri.the3ash.com/) for more details.
 
 5. Build with `pnpm build` and deploy the generated `dist/` directory to any static hosting platform. Link Card metadata is fetched automatically during `pnpm dev` and `pnpm build` and stored in `src/data/link-card-metadata.json` so cards render as static HTML.
 
-- This template now includes a GitHub Actions workflow at `.github/workflows/pages.yml` to build and deploy the site to GitHub Pages automatically on `main` branch pushes.
+- This template now includes a GitHub Actions workflow at `.github/workflows/pages.yml` to build and deploy the site to GitHub Pages automatically on `master` branch pushes.
+- Add a `.nojekyll` file in the repo root to prevent GitHub Pages from trying to run Jekyll on Astro source files.
+- Make sure your repository Pages source is set to **GitHub Actions** in GitHub Settings, not to the repository root branch.
 - If you are using GitHub Pages, update `src/config.ts` → `themeConfig.site.website` to your Pages URL (`https://<username>.github.io/<repo>/`), or your custom domain.
 
 &emsp;[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start) [![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/new)
