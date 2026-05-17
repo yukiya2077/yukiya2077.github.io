@@ -1,9 +1,9 @@
 ---
-title: 'Embedded Content'
+title: '嵌入内容'
 pubDate: '2025-06-06'
 ---
 
-Use these directives to embed media:
+使用以下指令嵌入媒体内容：
 
 ```
 ::link{url="https://xxxxx.xxx"}
@@ -24,24 +24,23 @@ Use these directives to embed media:
 ```
 🟡
 
-When embedded content is still loading,
-the table of contents positioning may be inaccurate.
+当嵌入内容仍在加载时，目录定位可能会不准确。
 ```
 
-## Link Card
+## Link 卡片
 
 ::link{url="https://pitchfork.com/reviews/albums/ichiko-aoba-luminescent-creatures/"}
 
 ```
 🟡
 
-Link Card metadata is fetched automatically during `pnpm dev` and `pnpm build`.
-Run `pnpm update-link-metadata --force` to refresh existing entries.
+Link 卡片的元数据会在 `pnpm dev` 和 `pnpm build` 时自动获取。
+使用 `pnpm update-link-metadata --force` 可刷新已有条目。
 
 -
 
-To disable Link Card, set `linkCard: false` in `src/config.ts`.
-Restart `pnpm dev` for the change to take effect.
+要禁用 Link 卡片，请在 `src/config.ts` 中将 `linkCard: false`。
+重新启动 `pnpm dev` 以使更改生效。
 ```
 
 ## Spotify
@@ -62,11 +61,11 @@ Restart `pnpm dev` for the change to take effect.
 
 ::github{repo="the3ash/astro-chiri"}
 
-## X Post
+## X 帖子
 
 ::x{url="https://x.com/DAVID_LYNCH/status/1174367510893752321"}
 
-## NeoDB (CN Only)
+## NeoDB（仅限中国）
 
 ::neodb{url="https://neodb.social/album/5nD3R8gmnVlsoOBdyO8PA3"}
 

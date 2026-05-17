@@ -1,5 +1,5 @@
 ---
-title: 'About'
+title: '关于'
 ---
 
 <!--
@@ -7,10 +7,10 @@ This content will be displayed at the top of the index page.
 You can leave this empty if you don’t want to show any content.
 -->
 
-A static blog theme based on [Astro](https://astro.build), _designed for clarity and focus_.
+这是一个基于 [Astro](https://astro.build) 的静态博客主题，专为清晰和专注而设计。
 
-With a deliberately minimal design, this layout ensures your content takes center stage. It's built for flexibility, offering customization options that honor its clean and elegant aesthetic.
+通过刻意的极简设计，本布局让你的内容成为页面的中心。它支持灵活定制，同时保持简洁优雅的视觉风格。
 
-Effortlessly share your thoughts in a calm & dustless space.
+在一个宁静而纯净的空间中，轻松分享你的想法。
 
-Check posts for details and view source on [GitHub](https://github.com/the3ash/astro-chiri).
+查看文章了解更多，并在 [GitHub](https://github.com/the3ash/astro-chiri) 查看源码。

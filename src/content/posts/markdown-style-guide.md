@@ -1,57 +1,57 @@
 ---
-title: 'Markdown Style Guide'
+title: 'Markdown 样式指南'
 pubDate: '2025-06-28'
 ---
 
-This theme does not define more levels of headlines. If needed, you can define them in `src/styles/post.css`.
+本主题未定义更多标题级别。如有需要，可在 `src/styles/post.css` 中自行添加。
 
 ---
 
-## Paragraph
+## 段落
 
-Here's a practical example of a paragraph in Markdown. This text demonstrates how content flows naturally in a blog post.
+下面是一个 Markdown 段落的示例，展示了博客文章中文本自然流动的样式。
 
-You can use various formatting options like **bold**, _italic_, ~~strikethrough~~, and `code` within your paragraphs.
+你可以在段落中使用各种格式，比如 **加粗**、_斜体_、~~删除线~~ 和 `代码`。
 
-## Blockquotes
+## 引用
 
-> Don't communicate by sharing memory, share memory by communicating.<br>
+> 不要通过共享记忆来进行沟通，要通过沟通来共享记忆。<br>
 > — <cite>Rob Pike[^1]</cite>
 
-[^1]: The above quote is excerpted from Rob Pike's [talk](https://www.youtube.com/watch?v=PAAkCSZUG1c) during Gopherfest, November 18, 2015.
+[^1]: 上述引用摘自 Rob Pike 在 2015 年 11 月 18 日 Gopherfest 的[演讲](https://www.youtube.com/watch?v=PAAkCSZUG1c)。
 
-### Ordered List
+### 有序列表
 
-1. First item
-2. Second item
-3. Third item
+1. 第一项
+2. 第二项
+3. 第三项
 
-### Unordered List
+### 无序列表
 
-- Item
-  - Subitem
-  - Subitem
+- 项目
+  - 子项目
+  - 子项目
 
-## Task List
+## 任务列表
 
-- [ ] First item
-- [ ] Second item
-- [x] Third item
+- [ ] 第一项
+- [ ] 第二项
+- [x] 第三项
 
-## Image
+## 图片
 
-To hide the caption, start it with an underscore `_` or leave the alt text empty.
+要隐藏标题，请在标题前加下划线 `_`，或将 alt 文本留空。
 
 ![HIKARI](./_assets/hikari.webp)
 
-## Tables
+## 表格
 
-| Style    | Weight   | Other  |
-| -------- | -------- | ------ |
-| Normal   | Regular  | Text   |
-| _Italic_ | **Bold** | `Code` |
+| 样式     | 权重     | 其他    |
+| -------- | -------- | ------- |
+| 普通     | 常规     | 文本    |
+| _斜体_   | **加粗** | `代码`  |
 
-## Code Blocks
+## 代码块
 
 ```jsx
 // Button.jsx
@@ -72,16 +72,16 @@ const Button = ({ text, onClick }) => {
 }
 ```
 
-## Other Elements — sub, sup, abbr, kbd, mark
+## 其它元素 — sub、sup、abbr、kbd、mark
 
 H<sub>2</sub>O
 
 X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup>
 
-<abbr title="Graphics Interchange Format">GIF</abbr> is a bitmap image format.
+<abbr title="Graphics Interchange Format">GIF</abbr> 是一种位图图像格式。
 
-Press <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>Delete</kbd> to end the session.
+按 <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>Delete</kbd> 结束会话。
 
-Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures.
+大多数 <mark>蝾螈</mark> 是夜行性动物，会捕食昆虫、蠕虫和其它小型生物。
 
 ---
